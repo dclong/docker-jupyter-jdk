@@ -1,4 +1,6 @@
+# NAME: dclong/jupyter-jdk
 FROM dclong/jupyter
+# GIT: https://github.com/dclong/docker-jupyter.git
 
 RUN apt-get update -y \
     && apt-get install -y \
